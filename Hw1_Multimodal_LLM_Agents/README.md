@@ -6,7 +6,7 @@ This repository contains code for evaluating image captioning and performing ima
 
 ## Table of Contents
 
-- Environment Details
+- [Environment Details](#environment-details)
 - How to Run the Code
 - **Task 1: Image Captioning Evaluation**
   - 0.Environment Setting
