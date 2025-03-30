@@ -6,7 +6,7 @@ This repository contains code for evaluating image captioning and performing ima
 
 ## Table of Contents
 
-- [Environment Details](#environment-details)
+- [❗Environment Details](#environment-details)
 - How to Run the Code: all in one `.ipynb` file.
 - **Task 1: Image Captioning Evaluation**
 - **Task 1: Evaluation Details**
