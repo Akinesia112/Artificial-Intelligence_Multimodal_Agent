@@ -12,33 +12,33 @@ This repository contains code for evaluating image captioning and performing ima
   - 0.Environment Setting
   - 1.BLIP: `Salesforce/blip-image-captioning-base`
   - 2.Phi‑4: `microsoft/Phi-4-multimodal-instruct`
-  - 3. Load Datasets for Evaluation
-  - 4. Load Evaluation Metrics
-  - 5. Evaluation Function for Image Captioning
-  - 6. Run Evaluations
-  - 7. Case Study – Qualitative Analysis
+  - 3.Load Datasets for Evaluation
+  - 4.Load Evaluation Metrics
+  - 5.Evaluation Function for Image Captioning
+  - 6.Run Evaluations
+  - 7.Case Study – Qualitative Analysis
        
 - **Task 2-1: MLLM Image Style Transfer (Text-to-Image)**
-  - 0. Environment Setting
-  - 1. Download the 100 Content Images
+  - 0.Environment Setting
+  - 1.Download the 100 Content Images
   - **Instruction Strategy 1: With Question and Substeps**
-    - 2. Load the MLLM: Phi‑4 (multimodal instruct)
-    - 3. Load the T2I Model: Stable Diffusion 3 (medium)
-    - 4. Create Output Folder
-    - 5. Loop Over the 100 Images
+    - 2.Load the MLLM: Phi‑4 (multimodal instruct)
+    - 3.Load the T2I Model: Stable Diffusion 3 (medium)
+    - 4.Create Output Folder
+    - 5.Loop Over the 100 Images
   - **Instruction Strategy 2: Without Question and Substeps**
-    - 2. Load the MLLM: Phi‑4 (multimodal instruct)
-    - 3. Load the T2I Model: Stable Diffusion 3 (medium)
-    - 4. Create Output Folder
-    - 5. Loop Over the 100 Images
+    - 2.Load the MLLM: Phi‑4 (multimodal instruct)
+    - 3.Load the T2I Model: Stable Diffusion 3 (medium)
+    - 4.Create Output Folder
+    - 5.Loop Over the 100 Images
   - **Style Transfer on Your Profile Photo**
 - **Task 2-2: MLLM Image Style Transfer (Image-to-Image)**
-  - 1. Download the 100 Content Images
-  - 2. Load Phi‑4 (multimodal instruct) to Generate Text Prompts
-  - 3. Load Stable Diffusion v1.5 (Image-to-Image)
-  - 4. Create a Function to Generate Long Prompt Embeddings
-  - 5. Create the Output Folder
-  - 6. Process Each Content Image
+  - 1.Download the 100 Content Images
+  - 2.Load Phi‑4 (multimodal instruct) to Generate Text Prompts
+  - 3.Load Stable Diffusion v1.5 (Image-to-Image)
+  - 4.Create a Function to Generate Long Prompt Embeddings
+  - 5.Create the Output Folder
+  - 6.Process Each Content Image
     - Parameters & Variants:
       - Short Prompts: `strength=0.75, guidance_scale=9.5`
       - Long Prompt: `strength=0.75, guidance_scale=9.5`
