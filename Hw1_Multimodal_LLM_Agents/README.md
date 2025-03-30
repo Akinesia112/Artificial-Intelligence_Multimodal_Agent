@@ -12,12 +12,12 @@ This repository contains code for evaluating image captioning and performing ima
 - **Task 1: Evaluation Details**
   
 *   Models (Restricted Using Model Card from huggingface):
- - [BLIP] (https://huggingface.co/Salesforce/blip-image-captioning-base), 
- - [Phi-4] (https://huggingface.co/microsoft/Phi-4-multimodal-instruct) 
+ - [BLIP](https://huggingface.co/Salesforce/blip-image-captioning-base), 
+ - [Phi-4](https://huggingface.co/microsoft/Phi-4-multimodal-instruct) 
 *   Datasets (Restricted): 
- - MSCOCO-Test (5k) (https://huggingface.co/datasets/nlphuji/mscoco_2014_5k_test_image_text_retrieval), 
- - flickr30k (https://huggingface.co/datasets/nlphuji/flickr30k) 
-*   Metrics (intro: https://avinashselvam.medium.com/llm-evaluation-metrics-bleu-rogue-and-meteor-explained-a5d2b129e87f, implementation:https://huggingface.co/docs/evaluate/index): 
+ - [MSCOCO-Test (5k)](https://huggingface.co/datasets/nlphuji/mscoco_2014_5k_test_image_text_retrieval), 
+ - [flickr30k](https://huggingface.co/datasets/nlphuji/flickr30k) 
+*   Metrics ([intro](https://avinashselvam.medium.com/llm-evaluation-metrics-bleu-rogue-and-meteor-explained-a5d2b129e87f), [implementation](https://huggingface.co/docs/evaluate/index)) 
  - BLEU, ROUGE-1, ROUGE-2, METEOR 
   - 0.Environment Setting
   - 1.BLIP: `Salesforce/blip-image-captioning-base`
