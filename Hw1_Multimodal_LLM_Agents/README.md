@@ -109,11 +109,12 @@ This repository contains code for evaluating image captioning and performing ima
   - [safetensors](https://github.com/huggingface/safetensors)
   - [Pillow](https://github.com/python-pillow/Pillow) (for image processing)
   - [gdown](https://github.com/wkentaro/gdown) (for downloading datasets)
+  - [compel](https://github.com/damian0815/compel) (for solving the token length constraint)
 
 **Installation Command (Colab):**
 ❗To avoid Phi-4 with `TypeError: bad operand type for unary -: ‘NoneType’`
 Plese set transformers==4.48.2（see an [external site](https://huggingface.co/microsoft/Phi-4-multimodal-instruct/discussions/36Links)).
 
 ```bash
-!pip install diffusers accelerate safetensors Pillow gdown backoff evaluate rouge_score datasets transformers==4.48.2
+!pip install diffusers accelerate safetensors Pillow gdown backoff evaluate rouge_score datasets compel transformers==4.48.2
 ```
