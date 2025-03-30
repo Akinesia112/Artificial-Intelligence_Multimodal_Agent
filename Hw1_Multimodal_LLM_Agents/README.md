@@ -56,7 +56,7 @@ This repository contains code for evaluating image captioning and performing ima
   - [transformers](https://github.com/huggingface/transformers) (for Phi‑4 and BLIP)
   - [accelerate](https://github.com/huggingface/accelerate)
   - [safetensors](https://github.com/huggingface/safetensors)
-  - [Pillow](https://python-pillow.org/) (for image processing)
+  - [Pillow](https://github.com/python-pillow/Pillow) (for image processing)
   - [gdown](https://github.com/wkentaro/gdown) (for downloading datasets)
 
 **Installation Command (Colab):**
