@@ -33,11 +33,45 @@ This repository contains code for evaluating image captioning and performing ima
   - **Instruction Strategy 1: With Question and Substeps**
     - 2.Load the MLLM: Phi‑4 (multimodal instruct)
     - 3.Load the T2I Model: Stable Diffusion 3 (medium)
+    - Login Huggingface with your own acess token (choose 'write'), and fill the token in `token="Your Token"` below:
+      ```
+      from huggingface_hub import login
+      login()
+      ```
+      ```
+      # ---------------------------
+      # 3) Load the T2I Model: Stable Diffusion 3 (medium)
+      # ---------------------------
+      from diffusers import StableDiffusion3Pipeline
+
+      pipe = StableDiffusion3Pipeline.from_pretrained(
+          "stabilityai/stable-diffusion-3-medium-diffusers", 
+          torch_dtype=torch.float16,
+          token="Your Token")
+      pipe = pipe.to("cuda")
+      ```
     - 4.Create Output Folder
     - 5.Loop Over the 100 Images
   - **Instruction Strategy 2: Without Question and Substeps**
     - 2.Load the MLLM: Phi‑4 (multimodal instruct)
     - 3.Load the T2I Model: Stable Diffusion 3 (medium)
+    - Login Huggingface with your own acess token (choose 'write'), and fill the token in `token="Your Token"` below:
+      ```
+      from huggingface_hub import login
+      login()
+      ```
+      ```
+      # ---------------------------
+      # 3) Load the T2I Model: Stable Diffusion 3 (medium)
+      # ---------------------------
+      from diffusers import StableDiffusion3Pipeline
+
+      pipe = StableDiffusion3Pipeline.from_pretrained(
+          "stabilityai/stable-diffusion-3-medium-diffusers", 
+          torch_dtype=torch.float16,
+          token="Your Token")
+      pipe = pipe.to("cuda")
+      ```
     - 4.Create Output Folder
     - 5.Loop Over the 100 Images
   - **Style Transfer on Your Profile Photo**
@@ -70,7 +104,9 @@ This repository contains code for evaluating image captioning and performing ima
   - [gdown](https://github.com/wkentaro/gdown) (for downloading datasets)
 
 **Installation Command (Colab):**
+❗To avoid Phi-4 with `TypeError: bad operand type for unary -: ‘NoneType’`
+Plese set transformers==4.48.2（see an [external site](https://huggingface.co/microsoft/Phi-4-multimodal-instruct/discussions/36Links)).
 
 ```bash
-!pip install diffusers accelerate safetensors Pillow gdown
+!pip install diffusers accelerate safetensors Pillow gdown backoff evaluate rouge_score datasets transformers==4.48.2
 ```
