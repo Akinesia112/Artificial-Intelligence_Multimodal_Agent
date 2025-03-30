@@ -7,7 +7,7 @@ This repository contains code for evaluating image captioning and performing ima
 ## Table of Contents
 
 - [Environment Details](#environment-details)
-- How to Run the Code
+- How to Run the Code: all in one `.ipynb` file.
 - **Task 1: Image Captioning Evaluation**
   - 0.Environment Setting
   - 1.BLIP: `Salesforce/blip-image-captioning-base`
