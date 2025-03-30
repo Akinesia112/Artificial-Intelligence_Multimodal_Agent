@@ -9,9 +9,9 @@ This repository contains code for evaluating image captioning and performing ima
 - Environment Details
 - How to Run the Code
 - **Task 1: Image Captioning Evaluation**
-    0. Environment Setting
-    1. BLIP: `Salesforce/blip-image-captioning-base`
-  - 2. Phi‑4: `microsoft/Phi-4-multimodal-instruct`
+  - 0.Environment Setting
+  - 1.BLIP: `Salesforce/blip-image-captioning-base`
+  - 2.Phi‑4: `microsoft/Phi-4-multimodal-instruct`
   - 3. Load Datasets for Evaluation
   - 4. Load Evaluation Metrics
   - 5. Evaluation Function for Image Captioning
