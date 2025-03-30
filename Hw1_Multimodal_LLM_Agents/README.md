@@ -97,7 +97,7 @@ This repository contains code for evaluating image captioning and performing ima
 
 ---
 
-## Environment Details
+## ❗Environment Details
 
 - **Device:** A100 GPU  
 - **Platform:** Google Colab  
