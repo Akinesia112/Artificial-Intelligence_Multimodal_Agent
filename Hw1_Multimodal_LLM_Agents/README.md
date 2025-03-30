@@ -55,7 +55,7 @@ This repository contains code for evaluating image captioning and performing ima
   - **Instruction Strategy 2: Without Question and Substeps**
     - 2.Load the MLLM: Phi‑4 (multimodal instruct)
     - 3.Load the T2I Model: Stable Diffusion 3 (medium)
-    - Login Huggingface with your own acess token (choose 'write'), and fill the token in `token="Your Token"` below:
+    - Login Huggingface with your own acess token (choose `write`), and fill the token in `token="Your Token"` below:
       ```
       from huggingface_hub import login
       login()
@@ -79,6 +79,13 @@ This repository contains code for evaluating image captioning and performing ima
   - 1.Download the 100 Content Images
   - 2.Load Phi‑4 (multimodal instruct) to Generate Text Prompts
   - 3.Load Stable Diffusion v1.5 (Image-to-Image)
+  - Install `!pip install compel` to solve the token length constraint problem `The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens:`:
+      ```
+      from compel import Compel, ReturnedEmbeddingsType
+
+      # Use stable-diffusion-v1-5 tokenizer and weight initialization compel
+      compel = Compel(tokenizer=pipe.tokenizer , text_encoder=pipe.text_encoder, returned_embeddings_type=ReturnedEmbeddingsType.PENULTIMATE_HIDDEN_STATES_NON_NORMALIZED, requires_pooled=[False, True])
+      ```
   - 4.Create a Function to Generate Long Prompt Embeddings
   - 5.Create the Output Folder
   - 6.Process Each Content Image
