@@ -17,6 +17,7 @@ This repository contains code for evaluating image captioning and performing ima
   - 5. Evaluation Function for Image Captioning
   - 6. Run Evaluations
   - 7. Case Study – Qualitative Analysis
+       
 - **Task 2-1: MLLM Image Style Transfer (Text-to-Image)**
   - 0. Environment Setting
   - 1. Download the 100 Content Images
