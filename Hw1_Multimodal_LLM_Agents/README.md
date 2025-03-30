@@ -1,6 +1,6 @@
-# HW1: Multimodal LLM Agents for Image Captioning & Image Style Transfer
+# HW1: Multimodal LLM Agents for Image Captioning & Image Style Transfer (Text-to-Image & Image-to-Image)
 
-This repository contains code for evaluating image captioning and performing image style transfer using multimodal LLM agents. The tasks are implemented in Google Colab using Python 3 and are designed to run on an A100 GPU.
+This repository contains code for evaluating image captioning and performing image style transfer (Text-to-Image & Image-to-Image) using multimodal LLM agents. The tasks are implemented in Google Colab using Python 3 and are designed to run on an A100 GPU.
 
 ---
 
