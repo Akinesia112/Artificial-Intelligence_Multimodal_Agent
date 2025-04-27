@@ -2,7 +2,7 @@
 
 This repository contains two notebooks for implementing and evaluating a Retrieval-Augmented Generation (RAG) system in Google Colab.
 
-### **Task 1**: Retrieval-Augmented Generation (RAG) Implementation
+### **Task 1**: Retrieval-Augmented Generation (RAG) on Resume Infomation Retrieval and Summary
 - Implement a Retrieval-Augmented Generation system using:
   - LLM: Phi-2
   - Embedding Model: all-MiniLM-L6-v2
