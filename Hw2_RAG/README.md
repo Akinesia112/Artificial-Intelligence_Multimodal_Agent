@@ -2,6 +2,25 @@
 
 This repository contains two notebooks for implementing and evaluating a Retrieval-Augmented Generation (RAG) system in Google Colab.
 
+- **Task 1**: Retrieval-Augmented Generation (RAG) Implementation
+- Implement a Retrieval-Augmented Generation system using:
+  - LLM: Phi-2
+  - Embedding Model: all-MiniLM-L6-v2
+- Generate:
+  - Response without RAG
+  - Response with RAG
+- Analyze and compare the two responses.
+
+- **Task 2**: RAG-based Page Retrieval
+- Build a RAG system to retrieve pages from AI.pdf (463 pages) based on query questions.
+- Each query's answer must be a single page number.
+- Join the [Kaggle competition] (https://www.kaggle.com/t/e5a90293e822445b98a7d60be57aa67c).
+- Submit predictions in the format of HW2_template.csv(results.csv).
+- Using OCR and Captioning models to improve information retrieval.
+  - OCR: pytesseract
+  - LLM Captioning: Phi-4-multimodal-instruct
+  - Embedding Model: all-MiniLM-L6-v2
+
 ```bash
 ├── Hw2_task1.ipynb       # Notebook for initial RAG implementation and analysis in Resume
 ├── Hw2_task2.ipynb       # Notebook for enhanced RAG with OCR/captioning and page-level reasoning
