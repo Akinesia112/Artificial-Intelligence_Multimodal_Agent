@@ -55,7 +55,7 @@ In the first cell, install and download dependencies & data:
 
 Hw2_task2 (**Datasets**): https://drive.google.com/drive/folders/1C7IN3IaNFRbLcny9AWfC1gkuEhznEDxC?usp=sharing
 
-pages (**Page Images**): https://drive.google.com/drive/folders/14OcRVpXzTy7wAVWvBj_HWYpryCcsts1R?usp=sharing
+pages (**Converted Page Images for OCR**): https://drive.google.com/drive/folders/14OcRVpXzTy7wAVWvBj_HWYpryCcsts1R?usp=sharing
 
 
 ```bash
