@@ -14,7 +14,7 @@ This repository contains two notebooks for implementing and evaluating a Retriev
 - **Task 2**: RAG-based Page Retrieval
 - Build a RAG system to retrieve pages from AI.pdf (463 pages) based on query questions.
 - Each query's answer must be a single page number.
-- Join the [Kaggle competition] (https://www.kaggle.com/t/e5a90293e822445b98a7d60be57aa67c).
+- Join the [Kaggle competition](https://www.kaggle.com/t/e5a90293e822445b98a7d60be57aa67c).
 - Submit predictions in the format of HW2_template.csv(results.csv).
 - Using OCR and Captioning models to improve information retrieval.
   - OCR: pytesseract
