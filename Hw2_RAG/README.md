@@ -53,9 +53,9 @@ Open Hw2_task2.ipynb in Google Colab.
 
 In the first cell, install and download dependencies & data:
 
-Hw2_task2 (Datasets): https://drive.google.com/drive/folders/1C7IN3IaNFRbLcny9AWfC1gkuEhznEDxC?usp=sharing
+Hw2_task2 (**Datasets**): https://drive.google.com/drive/folders/1C7IN3IaNFRbLcny9AWfC1gkuEhznEDxC?usp=sharing
 
-pages (page images): https://drive.google.com/drive/folders/14OcRVpXzTy7wAVWvBj_HWYpryCcsts1R?usp=sharing
+pages (**Page Images**): https://drive.google.com/drive/folders/14OcRVpXzTy7wAVWvBj_HWYpryCcsts1R?usp=sharing
 
 
 ```bash
