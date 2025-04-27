@@ -11,7 +11,7 @@ This repository contains two notebooks for implementing and evaluating a Retriev
   - Response with RAG
 - Analyze and compare the two responses.
 
-### **Task 2**: RAG-based Page Retrieval
+### **Task 2**: RAG-based Page Retrieval on Slides
 - Build a RAG system to retrieve pages from AI.pdf (463 pages) based on query questions.
 - Each query's answer must be a single page number.
 - Join the [Kaggle competition](https://www.kaggle.com/t/e5a90293e822445b98a7d60be57aa67c).
