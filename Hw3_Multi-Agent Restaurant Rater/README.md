@@ -1,6 +1,6 @@
 # Multi-Agent Restaurant Rater
 
-A system demonstrating a modular, multi-agent pipeline for rating restaurants based on review data. Originally built on Microsoft AutoGen with GPT-4o-mini, the pipeline has been optimized for direct invocation to ensure reliability and test compatibility.
+A system demonstrating a modular, multi-agent pipeline for rating restaurants based on review data. Originally built on Microsoft AutoGen with GPT-4o-mini, the pipeline has been optimized for direct invocation to ensure reliability and test compatibility. See details in [Link](https://docs.google.com/presentation/d/1V6HXGTMqDJqA6QtOeJdUJGIVXbNmYuTo/edit?slide=id.p1#slide=id.p1)
 
 ## Table of Contents
 
