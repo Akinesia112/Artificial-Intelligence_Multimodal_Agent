@@ -1,0 +1,35 @@
+Query 1: How good is the restaurant taco bell overall?
+Captured stdout:
+{'Taco Bell': '2.982'}
+
+Returned value:
+{'Taco Bell': '2.982'}
+
+Query 2: How good is the restaurant Chick-fil-A overall?
+Captured stdout:
+{'Chick-fil-A': '9.376'}
+
+Returned value:
+{'Chick-fil-A': '9.376'}
+
+Query 3: What is the overall score for Starbucks?
+Captured stdout:
+{'Starbucks': '7.969'}
+
+Returned value:
+{'Starbucks': '7.969'}
+
+Query 4: What is the overall score for In-n-Out
+Captured stdout:
+{'In-n-Out': '9.400'}
+
+Returned value:
+{'In-n-Out': '9.400'}
+
+Query 5: What is the overall score for McDonald's?
+Captured stdout:
+{"McDonald's": '3.600'}
+
+Returned value:
+{"McDonald's": '3.600'}
+
