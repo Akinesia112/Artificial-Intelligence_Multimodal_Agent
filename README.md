@@ -62,6 +62,13 @@ This project involves building and evaluating RAG systems using Google Colab.
 
 ## HW3: Multi-Agent Systems
 
-This project introduces the construction and understanding of multi-agent artificial intelligence systems.
+This project introduces the construction and understanding of a multi-agent artificial intelligence system. A system demonstrating a modular, multi-agent pipeline for rating restaurants based on review data. Originally built on **Microsoft AutoGen** with **GPT-4o-mini**, the pipeline has been optimized for direct invocation to ensure reliability and test compatibility.
 
+The **Multi-Agent Restaurant Rater** extracts numeric ratings from textual restaurant reviews by:
+
+1. **Parsing** a natural-language query to identify the restaurant name.  
+2. **Fetching** review lines from a structured dataset (`restaurant-data.txt`).  
+3. **Analyzing** each review by mapping adjectives to food and service scores using keyword buckets.  
+4. **Scoring** with a geometric-mean formula to compute an overall rating.
+While the original design used conversational agents (Parse, Fetch, Analyze, Score), the current implementation calls helper functions directly in `main.py` to streamline execution and guarantee deterministic results.
 ---
