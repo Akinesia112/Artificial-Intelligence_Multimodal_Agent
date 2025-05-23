@@ -66,7 +66,7 @@ While the original design used conversational agents (Parse, Fetch, Analyze, Sco
 2. Set it as an environment variable:
 
     ```bash
-    export OPENAI_API_KEY=sk-your-key   # macOS/Linux  
+    export OPENAI_API_KEY=sk-proj-your-key   # macOS/Linux  
     set OPENAI_API_KEY=sk-proj-your-key      # Windows  
 
 ## Usage
